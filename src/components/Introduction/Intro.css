@@ -1,0 +1,62 @@
+.Intro-wrapper {
+  margin-top: 8%;
+}
+.intro-content {
+}
+.intro-header {
+  font-weight: 400;
+  font-size: 3.5rem;
+  line-height: 60px;
+  color: #232323;
+  margin-bottom: 8%;
+}
+.intro-content p {
+  color: #444343;
+  max-width: 90%;
+  font-weight: 400;
+}
+.intro-content img {
+  max-width: 90%;
+  height: auto;
+  padding-top: 3%;
+}
+.intro-side {
+}
+.intro-side h4 {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.intro-side p {
+  font-size: 0.8rem;
+  max-width: 85%;
+  line-height: 25px;
+}
+.intro-side p span {
+  color: #ab5232;
+}
+
+@media screen and (max-width: 480px) {
+  .Intro-wrapper {
+    margin-top: 30%;
+  }
+  .intro-header {
+    font-size: 3rem;
+    line-height: 55px;
+    max-width: 90%;
+    margin: auto;
+    margin-bottom: 15%;
+  }
+  .intro-content p {
+    margin: auto;
+  }
+  .intro-content img {
+    margin: 10% 5%;
+  }
+  .intro-side h4 {
+    margin: 5% 5%;
+  }
+  .intro-side p {
+    margin-left: 5%;
+    max-width: 90%;
+  }
+}

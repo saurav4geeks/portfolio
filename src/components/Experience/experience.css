@@ -1,0 +1,17 @@
+.Experience-wrapper {
+  margin-top: 8%;
+}
+.experience-content {
+  max-width: 90%;
+}
+.experience-content h1 {
+  color: #629489;
+  font-weight: 400;
+  margin-bottom: 5%;
+}
+
+@media screen and (max-width: 480px) {
+  .experience-content h1 {
+    margin: 5%;
+  }
+}

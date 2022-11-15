@@ -1,0 +1,16 @@
+.education-wrapper {
+  margin-top: 8%;
+}
+.education-content {
+  max-width: 90%;
+}
+.education-content h1 {
+  color: #629489;
+  font-weight: 400;
+  margin-bottom: 5%;
+}
+@media screen and (max-width: 480px) {
+  .education-content h1 {
+    margin: 5%;
+  }
+}

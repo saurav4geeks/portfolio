@@ -1,0 +1,66 @@
+.banner-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.banner-wrapper img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.social-links {
+  position: absolute;
+  z-index: 1;
+  top: 5%;
+  right: 5%;
+}
+.banner-content {
+  position: relative;
+  z-index: 1;
+  margin-right: 5%;
+  margin-bottom: 5%;
+}
+.banner-content h6 {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: white;
+  margin-bottom: 20px;
+}
+.banner-content p {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 400;
+  color: white;
+  margin-bottom: 5px;
+  font-size: 1.2rem;
+}
+.banner-content ul li {
+  margin-bottom: 5px;
+}
+.hover-underline-animation-wt {
+  display: inline-block;
+  position: relative;
+}
+.hover-underline-animation-wt::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation-wt:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}

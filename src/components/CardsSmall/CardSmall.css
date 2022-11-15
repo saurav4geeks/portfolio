@@ -1,0 +1,62 @@
+.card-wrapper {
+  margin: 5% 0%;
+}
+.accordion {
+  border: none;
+  outline: none;
+  --bs-accordion-border-color: none !important;
+  --bs-accordion-btn-icon: none !important;
+  --bs-accordion-btn-active-icon: none !important;
+  --bs-accordion-btn-focus-border-color: none !important;
+  --bs-accordion-btn-focus-box-shadow: none !important;
+}
+.accordion-item {
+  border: none;
+  outline: none;
+}
+.accordion-header {
+  background-color: none;
+}
+.accordion-body {
+  background-color: #f1e7e3;
+}
+.accordion-button {
+  background-color: #faf2f0 !important;
+  outline: none !important;
+  padding: 10px 0px 10px 0px !important;
+  border-bottom: 2px solid #f1e7e3 !important;
+  border-radius: 0px !important;
+  --bs-accordion-btn-icon-width: none !important;
+}
+.card-date {
+  font-size: 0.8rem;
+  color: #595959;
+}
+.card-position {
+  color: #232323;
+  font-weight: 600;
+}
+.card-location {
+  font-size: 0.8rem;
+  color: #ab5232;
+}
+/* .detail-list {
+    padding: 2% 5%;
+  }
+  .detail-list li {
+    font-family: "IBM Plex Mono", monospace;
+    line-height: 30px;
+    padding-bottom: 5%;
+  }
+   */
+.w-30 {
+}
+
+@media screen and (max-width: 480px) {
+  .w-30 {
+    width: 33% !important;
+  }
+  .card-wrapper {
+    margin: 2%;
+  }
+}

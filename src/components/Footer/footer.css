@@ -1,0 +1,17 @@
+.footer-wrapper {
+  margin-top: 6%;
+}
+.footer-content {
+  max-width: 90%;
+}
+.footer-content p {
+  font-style: italic;
+  font-weight: 400;
+  color: #595959;
+  font-size: 13px;
+}
+@media screen and (max-width: 480px) {
+  .footer-content {
+    margin: auto;
+  }
+}

@@ -1,0 +1,37 @@
+.projects-wrapper {
+  margin-top: 8%;
+}
+.projects-content {
+  max-width: 90%;
+}
+.project-header {
+  color: #629489;
+  font-weight: 400;
+}
+
+.intro-side {
+}
+.intro-side h4 {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.intro-side ul {
+  padding-top: 6%;
+  padding-left: 5%;
+}
+.intro-side ul li {
+  font-size: 0.8rem;
+  line-height: 25px;
+}
+/* .intro-side p span {
+  color: #ab5232;
+} */
+
+@media screen and (max-width: 480px) {
+  .project-header {
+    margin: 5%;
+  }
+  .intro-side ul {
+    margin: 2%;
+  }
+}
