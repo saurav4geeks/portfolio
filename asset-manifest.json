@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.adc84bf7.css",
-    "main.js": "/portfolio/static/js/main.55dbda5f.js",
+    "main.js": "/portfolio/static/js/main.b7df5d6b.js",
     "static/js/787.37faa4c4.chunk.js": "/portfolio/static/js/787.37faa4c4.chunk.js",
     "static/media/portfolio_banner_crop.png": "/portfolio/static/media/portfolio_banner_crop.84c9d9e70d651820df23.png",
-    "static/media/intro-img.jpg": "/portfolio/static/media/intro-img.4ce99b3a954e5f432e17.jpg",
-    "static/media/Resume_Saurav_Suman.pdf": "/portfolio/static/media/Resume_Saurav_Suman.4417911e2164860f61cb.pdf",
+    "static/media/intro-img.jpg": "/portfolio/static/media/intro-img.e4eecbd76b3b07aeeaac.jpg",
+    "static/media/Resume_Saurav_Suman.pdf": "/portfolio/static/media/Resume_Saurav_Suman.a35b612b810863d32768.pdf",
     "index.html": "/portfolio/index.html",
     "static/media/view-hide.svg": "/portfolio/static/media/view-hide.5e21f257cd1da26b85a377a4ffab48a3.svg",
     "static/media/view-show.svg": "/portfolio/static/media/view-show.b74325d58a702057c9d6099b68b5f2d9.svg",
     "main.adc84bf7.css.map": "/portfolio/static/css/main.adc84bf7.css.map",
-    "main.55dbda5f.js.map": "/portfolio/static/js/main.55dbda5f.js.map",
+    "main.b7df5d6b.js.map": "/portfolio/static/js/main.b7df5d6b.js.map",
     "787.37faa4c4.chunk.js.map": "/portfolio/static/js/787.37faa4c4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.adc84bf7.css",
-    "static/js/main.55dbda5f.js"
+    "static/js/main.b7df5d6b.js"
   ]
 }
